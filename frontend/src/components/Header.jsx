@@ -1,11 +1,13 @@
-import { NavLink } from "react-router"
+import { NavLink, useNavigate } from "react-router"
 import { Button } from "reactstrap"
 
 export const Header = () => {
+  const navigate = useNavigate();
+
   const logout = () => {
     localStorage.clear();
 
-    window.location.reload();
+    navigate("/login")
   }
 
   return (
