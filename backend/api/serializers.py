@@ -16,4 +16,4 @@ class UserSerializer(serializers.ModelSerializer):
 class ServiceOrderSerializer(serializers.ModelSerializer):
   class Meta:
     model = ServiceOrder
-    fields = ['created_at']
+    fields = ['dtaAssinatura','dscSigla','dscFilialInstalacao','cod_contrato','cod_unidade','codtipoproduto','qtdparada','dta_Liberacao_local_Cliente','dtaEntrega_contrato','dt_fabr','dscStatusEventoUnidade','dtaEmbarque_plan','dtaEmbaque_efetivacao','idfclassifcontrato','dscEndereço','dsccidade','dscbairro','codEvento','dtaEvento','dscNomeCliente','codreprvendas','dscnomeobra','idfContratoMajor','MISCELANEAS','HORA_Instalacao','HORA_AJUSTE','Total','numFilial','Material_Completo','Dta_Material_completo','StatusFinanceiro','LibObra','ParcelasAtrasadas','Frete','StatusObra','Situação_da_unidade','email_Supervisor','Contato','Telefone1','Telefone2','Telefone3','Email','cliente','created_at',]
